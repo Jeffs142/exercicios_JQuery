@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: rgb(240, 213, 162);
+}
+
+header {
+    background-color: rgb(240, 188, 91);
+    padding: 16px 0;
+    border-bottom: 16px solid rgb(156, 122, 60);
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+
+header button {
+    margin-left: 16px;
+    background-color: rgb(160, 64, 29);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+ul {
+    display: block;
+    justify-content: center;
+}
+
+ul li {
+    max-width: 30%;
+}
+
+.completed {
+    text-decoration: line-through;
+}
